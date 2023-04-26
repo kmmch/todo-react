@@ -1,12 +1,17 @@
 import React from "react";
 
+const style = {
+    backgroundColor: '#c6ffe2',
+    minHeight: '200px'
+}
+
 export const IncompleteTodos = (props) => {
     
     const {todos, onClickComplete, onClickDelete} = props;
 
     return (
         <>
-            <div className="area imcomplete-area">
+            <div style={style} className="area">
                 <p className="title">未完了のTODO</p>
                 <ul>
                     {todos.map((todo, index) => {

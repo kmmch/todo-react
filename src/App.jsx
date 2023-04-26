@@ -12,15 +12,11 @@ export const App = () => {
 
 
     // 未完了のTODO
-    const [incompleteTodos, setIncompleteTodos] = useState([
-        'あああああ','いいいいい'
-    ]);
+    const [incompleteTodos, setIncompleteTodos] = useState([]);
 
 
     // 完了のTODO
-    const [completeTodos, setCompleteTodos] = useState([
-        'ううううう'
-    ]);
+    const [completeTodos, setCompleteTodos] = useState([]);
 
 
     // 入力欄に入力された値をstateに反映する

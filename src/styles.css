@@ -9,11 +9,6 @@ body {
     border-radius: 8px;
 }
 
-.input-area {
-    background-color: #c1ffff;
-    height: 30px;
-}
-
 input {
     border-radius: 16px;
     border: none;
@@ -31,11 +26,6 @@ button:hover {
     background-color: #ff7fff;
     color: #fff;
     cursor: pointer;
-}
-
-.imcomplete-area {
-    background-color: #c6ffe2;
-    min-height: 200px;
 }
 
 .complete-area {
